@@ -60,7 +60,7 @@ jobs:
             Workflow of ${{github.repository}} initiated by ${{github.actor}} was
             successfully executed.
 
-            View the changes on the server http://16.170.148.60/
+            View the changes on the server http://54.198.95.172/
       - name: Notify on Failure
         if: failure()
         uses: dawidd6/action-send-mail@v3
