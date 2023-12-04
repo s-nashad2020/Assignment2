@@ -20,7 +20,7 @@ jobs:
         run: node --version
       - name: Install Dependencies
         run: |
-          cd react_app
+          # cd react_app
           npm install
       - name: Build Project
         run: |
