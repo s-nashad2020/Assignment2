@@ -2,7 +2,7 @@ name: Staging Server Deployment Workflow
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   deploy_staging:
     runs-on: ubuntu-latest
